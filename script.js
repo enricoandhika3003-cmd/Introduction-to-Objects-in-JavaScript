@@ -1,5 +1,6 @@
 var student={
-    name:"Enrico",
+    firstName:"Enrico",
+    lastName:"Enrico",
     age:"14",
     rollno:1,
 }
@@ -12,4 +13,4 @@ function func1(a, b, c) {
     console.log(arguments[2])
 }
 
-func1 (1, 2, 3)
+func1 (1, 2, 3);

@@ -8,15 +8,22 @@
     <body>
         <p id="greet"></p>
         <p id="method"></p>
+        <p id="trigonometry"></p>
         <script>
             var value=Math.random()
-
+            
             var person={
                 firstName:"Enrico",
                 lastName:"Efendi",
                 age:"14",
             };
 
+            function trigonometry(a, b) {
+                var a=3;
+                var b=4;
+            }
+            
+            document.getElementById("trigonometry").innerHTML = "c = " + sqrt{a^2 + b^2};
             document.getElementById("greet").innerHTML = "My name is " + person.firstName + " " + person.lastName + " and I am " + person.age + " years old";
             document.getElementById("method").innerHTML = "Random Number Generator: " + value ;
         </script>

@@ -8,6 +8,13 @@
     <body>
         <p id="greet"></p>
         <p id="method"></p>
+        <h2>Trigonometric Functions</h2>
+        <p>Using Pythagoras Theorem, we can find C or the Hypotenuse, by using the formula: c = sqrt{a^{2}+b^{2}}, where the general formula is a^{2}+b^{2}=c^{2}</p>
+        <p>For example, when A is 3 and B is 4, the formula to find C becomes c = sqrt{3^{2}+4^{2}},</p>
+        <p>or c = sqrt{9+16},</p>
+        <p>then simplified to be c = sqrt{9+16},</p>
+        <p>so c = sqrt{25},</p>
+        <p>and the result would be . . .</p>
         <p id="trigonometry"></p>
         <script>
             var value=Math.random()
@@ -19,11 +26,11 @@
             };
 
             function trigonometry(a, b) {
-                var a=3;
-                var b=4;
+                return Math.sqrt(a*a+b*b);
             }
             
-            document.getElementById("trigonometry").innerHTML = "c = " + sqrt{a^2 + b^2};
+            var c =trigonometry(3,4);
+            document.getElementById("trigonometry").innerHTML = "c = " + c;
             document.getElementById("greet").innerHTML = "My name is " + person.firstName + " " + person.lastName + " and I am " + person.age + " years old";
             document.getElementById("method").innerHTML = "Random Number Generator: " + value ;
         </script>
